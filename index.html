@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Black Jack - Sara Jirholm</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+	<canvas id="black-jack">
+		You're browser doesn't support canvas. Please choose another one to be able to play the game
+	</canvas>
+	<div class="center">
+			<button onClick="playRound()">Start game!</button>
+			<button onClick="player.getOneMoreCard()">Get on more card</button>
+			<button onClick="player.satisfied()">Satisfied</button>
+	</div>
+</body>
+<script type="text/javascript" src="DeckOfCards.js"></script>
+<script type="text/javascript" src="Player.js"></script>
+<script type="text/javascript" src="Dealer.js"></script>
+<script type="text/javascript" src="Game.js"></script>
+</html>
